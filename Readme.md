@@ -41,11 +41,11 @@ The following fields were extracted and used during the investigation:
 
 * **event_type** – Type of SSH activity (successful login, failed login, etc.)
 * **auth_success** – Indicates whether authentication succeeded
-* **auth_attempts** – Number of authentication attempts
+* **auth_attempts** – Number of authentication attempts                      
 * **id.orig_h** – Source IP address initiating the connection
 * **id.resp_h** – Destination host receiving the SSH connection
 
-## Security Use Cases Implemented
+## SOC Detection & Investigation Use Cases
 
 The following security monitoring and investigation use cases were implemented using Splunk SPL queries:
 
