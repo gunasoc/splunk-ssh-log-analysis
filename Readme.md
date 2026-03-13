@@ -47,7 +47,22 @@ The following fields were extracted and used during the investigation:
 
 ## Security Use Cases Implemented
 
-* Failed SSH login detection
-* Brute-force authentication detection
-* Successful login monitoring
-* Detection of SSH connections without authentication
+The following security monitoring and investigation use cases were implemented using Splunk SPL queries:
+
+• Log ingestion validation to verify SSH logs are successfully indexed and parsed.
+
+• Failed SSH login detection to identify unauthorized authentication attempts.
+
+• Top attacking IP detection to highlight the most active sources generating failed login attempts.
+
+• Multiple failed authentication detection to identify potential brute-force attack patterns.
+
+• Brute force detection using threshold-based analysis of repeated failed login attempts.
+
+• Successful SSH login monitoring to analyze legitimate authentication activity.
+
+• Detection of successful logins after repeated failures to identify possible credential compromise.
+
+• Detection of SSH connections without authentication to identify scanning and reconnaissance activity.
+
+• SSH connection trend monitoring over time to visualize attack patterns and persistent probing behavior.
