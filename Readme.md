@@ -10,6 +10,16 @@ This project demonstrates how Security Operations Center (SOC) analysts investig
 * Linux SSH Authentication Logs
 * SPL (Search Processing Language)
 
+## Dataset
+
+The dataset used in this project is available in the **data** folder of this repository.
+
+File used:
+
+data/ssh_log.json
+
+The dataset contains SSH authentication events including failed logins, successful logins, authentication attempts, and connection metadata used for security investigation.
+
 ## Log Ingestion
 
 The SSH authentication logs were uploaded into Splunk for security analysis.
