@@ -51,5 +51,3 @@ The following fields were extracted and used during the investigation:
 * Brute-force authentication detection
 * Successful login monitoring
 * Detection of SSH connections without authentication
-* Successful login monitoring
-* Detection of SSH connections without authentication
