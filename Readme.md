@@ -29,9 +29,8 @@ The SSH authentication logs were uploaded into Splunk for security analysis.
 1. Login to the Splunk Web Interface.
 2. Navigate to **Settings → Add Data**.
 3. Select **Upload** as the data input method.
-4. Upload the file:
-
-ssh_log.json
+4.Upload the file from the repository dataset:
+data/ssh_log.json
 
 5. Set the **Source Type** to:
 
