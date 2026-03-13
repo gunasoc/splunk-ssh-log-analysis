@@ -102,11 +102,11 @@ Splunk query used to verify that SSH logs were successfully ingested and categor
 
 ---
 
-### Failed SSH Login Analysis
+### Top Failed SSH Login Analysis
 
-Statistics view showing the number of failed SSH login attempts grouped by source IP address.
+Statistics view showing the number of top failed SSH login attempts grouped by source IP address.
 
-![Failed SSH Logins](screenshots/failed_ssh_logins.png)
+![Failed SSH Logins](screenshots/top_failed_ssh_logins.png)
 
 ---
 
@@ -114,7 +114,7 @@ Statistics view showing the number of failed SSH login attempts grouped by sourc
 
 Column chart visualization used to identify IP addresses generating the highest number of failed authentication attempts.
 
-![Failed SSH Visualization](screenshots/failed_ssh_visualization.png)
+![Failed SSH Visualization](screenshots/failed_ssh_visualisation.png)
 
 ---
 
