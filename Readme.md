@@ -26,10 +26,10 @@ data/ssh_log.json
 
 The dataset contains SSH authentication events including:
 
-* Failed SSH login attempts
-* Successful SSH login events
-* Authentication attempts
-* Source and destination host information
+* Failed SSH login
+* Successful SSH login
+* Multiple failed authentication attempts
+* Connection without authentication 
 
 These logs simulate real-world SSH monitoring scenarios in a SOC environment.
 
